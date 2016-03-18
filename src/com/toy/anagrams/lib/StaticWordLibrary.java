@@ -41,7 +41,9 @@ final class StaticWordLibrary extends WordLibrary {
         "Oliver",
         "Mikkel",
         "Phillip",
-        "Tim"
+        "Tim",
+        "Vetter",
+        "Ørvur"
     };
 
     private static final String[] SCRAMBLED_WORD_LIST = {
@@ -49,7 +51,9 @@ final class StaticWordLibrary extends WordLibrary {
         "Revilo",
         "Lekkim",
         "Pillihp",
-        "Mit"
+        "Mit",
+        "Rettev",
+        "Ruvrø"
     };
     
     final static WordLibrary DEFAULT = new StaticWordLibrary();
