@@ -37,23 +37,29 @@ package com.toy.anagrams.lib;
 final class StaticWordLibrary extends WordLibrary {
 
     private static final String[] WORD_LIST = {
-        "Michael",
-        "Oliver",
-        "Mikkel",
-        "Phillip",
-        "Tim",
-        "Vetter",
-        "Ørvur"
+        "Kage",
+        "Hus",
+        "Bil",
+        "Tøj",
+        "Kat",
+        "Mus",
+        "Hund",
+        "Bånd",
+        "Sommerhus",
+        "Skole"
     };
 
     private static final String[] SCRAMBLED_WORD_LIST = {
-        "LEAHCIM",
-        "Revilo",
-        "Lekkim",
-        "Pillihp",
-        "Mit",
-        "Rettev",
-        "Ruvrø"
+        "geaK",
+        "usH",
+        "ilB",
+        "jøT",
+        "aKt",
+        "uMs",
+        "duHn",
+        "åndB",
+        "ushremmoS",
+        "oleSk"
     };
     
     final static WordLibrary DEFAULT = new StaticWordLibrary();
