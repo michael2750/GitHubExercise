@@ -92,6 +92,13 @@ public class Anagrams extends JFrame {
         Dimension frameSize = getSize();
         setLocation(new Point((screenSize.width - frameSize.width) / 2,
                               (screenSize.height - frameSize.width) / 2));
+        scrambledLabel.setText("Forbyttede ord:");
+        guessLabel.setText("Dit gæt:");
+        guessButton.setText("Gæt");
+        nextTrial.setText("Nyt ord");
+        fileMenu.setText("Fil");
+        exitMenuItem.setText("Luk");
+        aboutMenuItem.setText("Om");
     }
     
     /** This method is called from within the constructor to
